@@ -16,7 +16,7 @@ import statsmodels.formula.api as smf
 
 
 #Load Parquet Files
-directory = 'C:/Users/erwin/PycharmProjects/NYC Taxi & Limo Commission/Parquet Files'
+directory = 'file_path'
 data_frames = []
 
 for file in os.listdir(directory):
